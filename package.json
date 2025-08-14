@@ -1,0 +1,23 @@
+{
+  "name": "marketing-landing-page",
+  "version": "1.0.0",
+  "description": "A simple landing page for marketing and product release.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'"
+  },
+  "keywords": [
+    "landing",
+    "marketing",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
