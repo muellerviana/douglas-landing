@@ -22,9 +22,8 @@
 </head>
 <body class="bg-darkblue text-white font-sans">
     <header class="bg-gradient-to-r from-darkblue via-[#071a33] to-[#12294a] text-white py-16 px-4 text-center min-h-[101vh]">
-
-        <h1 class="text-4xl md:text-4xl font-bold mb-4">Precisa de um plano de investimento personalizado para você?</h1>
-        <p class="text-lg md:text-2xl mb-8">Assista o video e desca a pagina para conhecer os beneficios!</p>
+        <h1 class="text-3xl md:text-5xl font-bold mb-4">Precisa de um plano de investimento personalizado para você?</h1>
+        <p class="text-base md:text-xl mb-8">Assista o vídeo e desça a página para conhecer os benefícios!</p>
         <div class="flex justify-center mb-8">
             <div class="relative w-full max-w-3xl aspect-video rounded-lg overflow-hidden shadow-lg border-4 border-white">
                 <iframe class="w-full h-full"
@@ -37,87 +36,60 @@
                 </iframe>
             </div>
         </div>
-        <!-- Fullscreen Blocker Overlay -->
-        <div id="audio-warning-blocker" class="fixed inset-0 z-50 flex items-center justify-center bg-black/90">
-            <div class="bg-red-900 text-white px-6 py-4 rounded-lg shadow-lg text-lg font-semibold flex items-center gap-2 flex-col md:flex-row">
-                <div class="flex items-center gap-2 mb-4 md:mb-0">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 19V6l-2 2H5a2 2 0 00-2 2v4a2 2 0 002 2h2l2 2zm7-7a4 4 0 00-4-4m0 8a4 4 0 004-4m0 0V7m0 5v5"></path>
-                    </svg>
-                    Ative o áudio para uma melhor experiência!
-                </div>
-                <button id="close-audio-warning-blocker" class="bg-darkblue text-gold px-3 py-1 rounded hover:bg-goldDark hover:text-white transition">OK</button>
-            </div>
-        </div>
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const blocker = document.getElementById('audio-warning-blocker');
-                const closeBtn = document.getElementById('close-audio-warning-blocker');
-                closeBtn.addEventListener('click', function () {
-                    blocker.style.display = 'none';
-                });
-                // Prevent scrolling while blocker is visible
-                document.body.style.overflow = 'hidden';
-                closeBtn.addEventListener('click', function () {
-                    document.body.style.overflow = '';
-                });
-            });
-        </script>
+        
 
         <div class="w-full max-w-3xl mx-auto mt-4">
-            <a href="#cta" class="block w-full bg-gold hover:bg-goldLight text-darkblue font-semibold px-8 py-3 rounded-full shadow transition text-center">Comece Agora</a>
+            <a href="#cta" class="block w-full bg-gold hover:bg-goldLight text-darkblue font-semibold px-8 py-3 rounded-full shadow transition text-center text-base md:text-lg">Comece Agora</a>
         </div>
     </header>
     <main>
         <section id="features" class="bg-gradient-to-r from-darkblue via-[#071a33] to-[#12294a] text-white py-16 px-4">
             <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-stretch gap-8">
-                <!-- Left: Image -->
                 <div class="flex-1 flex justify-center items-center mb-8 md:mb-0">
                     <img src="./assets/9266ac7af5648fabd42ccf5a685523c1.jpeg" alt="Recursos do produto" class="rounded-lg shadow-lg w-full max-w-xs object-cover">
                 </div>
-                <!-- Right: Features List -->
                 <div class="flex-1 flex flex-col justify-center text-center md:text-left">
-                    <h2 class="text-3xl font-bold mb-6 text-gold">Construa Riqueza de Verdade.</h2>
-                    <p class="mb-8 text-lg">
+                    <h2 class="text-2xl md:text-3xl font-bold mb-6 text-gold">Construa Riqueza de Verdade.</h2>
+                    <p class="mb-8 text-base md:text-lg">
                         Esqueça fórmulas mágicas, apostas e promessas vazias.
                         Com estratégia e disciplina, você pode multiplicar seu patrimônio de forma sólida e duradoura.
 
                         👉 Se você já consegue investir a partir de R$500/mês, clique em “Saiba Mais” e descubra seu plano de investimento personalizado.                   
                     </p>
-                    <a href="#cta" class="inline-block bg-gold hover:bg-goldLight text-darkblue font-semibold px-8 py-3 rounded-full shadow transition">Quero uma Consultoria</a>
+                    <a href="#cta" class="inline-block bg-gold hover:bg-goldLight text-darkblue font-semibold px-8 py-3 rounded-full shadow transition text-base md:text-lg">Quero uma Consultoria</a>
                 </div>
             </div>
         </section>
 
         <section id="cadastro" class="bg-gradient-to-r from-darkblue via-[#071a33] to-[#12294a] text-white py-16 px-4">
             <div class="max-w-3xl mx-auto rounded-lg shadow-lg bg-[#16243a]/80 p-8">
-                <h2 class="text-3xl font-bold mb-6 text-gold text-center">Cadastre-se para sua Consultoria</h2>
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-gold text-center">Cadastre-se para sua Consultoria</h2>
                 <form class="space-y-6" autocomplete="off">
                     <div>
-                        <label for="nome" class="block text-lg font-semibold mb-2">Nome Completo</label>
-                        <input type="text" id="nome" name="nome" required class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white border border-gold/30 focus:outline-none focus:border-gold transition" placeholder="Seu nome">
+                        <label for="nome" class="block text-base md:text-lg font-semibold mb-2">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" required class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white border border-gold/30 focus:outline-none focus:border-gold transition text-base md:text-lg" placeholder="Seu nome">
                     </div>
                     <div>
-                        <label for="email" class="block text-lg font-semibold mb-2">E-mail</label>
-                        <input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white border border-gold/30 focus:outline-none focus:border-gold transition" placeholder="seu@email.com">
+                        <label for="email" class="block text-base md:text-lg font-semibold mb-2">E-mail</label>
+                        <input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white border border-gold/30 focus:outline-none focus:border-gold transition text-base md:text-lg" placeholder="seu@email.com">
                     </div>
                     <div>
-                        <label for="telefone" class="block text-lg font-semibold mb-2">Telefone/WhatsApp</label>
-                        <input type="tel" id="telefone" name="telefone" required class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white border border-gold/30 focus:outline-none focus:border-gold transition" placeholder="(99) 99999-9999">
+                        <label for="telefone" class="block text-base md:text-lg font-semibold mb-2">Telefone/WhatsApp</label>
+                        <input type="tel" id="telefone" name="telefone" required class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white border border-gold/30 focus:outline-none focus:border-gold transition text-base md:text-lg" placeholder="(99) 99999-9999">
                     </div>
                     <div>
-                        <label for="objetivo" class="block text-lg font-semibold mb-2">Qual seu principal objetivo financeiro?</label>
-                        <textarea id="objetivo" name="objetivo" rows="3" class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white border border-gold/30 focus:outline-none focus:border-gold transition" placeholder="Ex: Aposentadoria, comprar imóvel, independência financeira..."></textarea>
+                        <label for="objetivo" class="block text-base md:text-lg font-semibold mb-2">Qual seu principal objetivo financeiro?</label>
+                        <textarea id="objetivo" name="objetivo" rows="3" class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white border border-gold/30 focus:outline-none focus:border-gold transition text-base md:text-lg" placeholder="Ex: Aposentadoria, comprar imóvel, independência financeira..."></textarea>
                     </div>
-                    <button type="submit" class="w-full bg-gold hover:bg-goldLight text-darkblue font-bold py-3 rounded-full shadow-lg transition text-lg">Enviar Cadastro</button>
+                    <button type="submit" class="w-full bg-gold hover:bg-goldLight text-darkblue font-bold py-3 rounded-full shadow-lg transition text-base md:text-lg">Enviar Cadastro</button>
                 </form>
-                <p class="mt-4 text-sm text-gray-400 text-center">Seus dados estão seguros. Não enviamos spam.</p>
+                <p class="mt-4 text-xs md:text-sm text-gray-400 text-center">Seus dados estão seguros. Não enviamos spam.</p>
             </div>
         </section>
 
         <section id="autoridade" class="bg-gradient-to-r from-darkblue via-[#071a33] to-[#12294a] text-white py-16 px-4">
             <div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-3xl font-bold mb-6 text-gold">Autoridade e Confiança</h2>
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-gold">Autoridade e Confiança</h2>
                 <ul class="mb-8 space-y-2 text-lg">
                     <li>👨‍💼 8 anos em investimentos</li>
                     <li>📊 7 anos em contabilidade</li>
@@ -274,12 +246,10 @@
         
         <section id="cta" class="bg-gray-50 text-darkblue py-20 px-6">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
-            
-            <!-- Left: Text -->
-            <div class="flex-1 flex flex-col justify-center text-center md:text-left">
+            <div class="flex-1 flex flex-col justify-center text-center md:text-left"</div>
             <h2 class="text-4xl font-extrabold mb-4 leading-tight">Pronto para transformar seu futuro financeiro?</h2>
             <p class="mb-6 text-lg md:text-xl text-gray-200">
-                Eu estarei ao seu lado em cada passo. Chega de promessas vazias — aqui você terá estratégia, clareza e um plano sob medida para construir riqueza real.
+              </p>  Eu estarei ao seu lado em cada passo. Chega de promessas vazias — aqui você terá estratégia, clareza e um plano sob medida para construir riqueza real.
             </p>
             <a href="#signup" 
                 class="inline-block bg-gradient-to-r from-gold via-goldLight to-goldDark text-darkblue font-bold px-10 py-4 rounded-full shadow-lg transform transition hover:scale-105 hover:from-goldLight hover:to-gold">
