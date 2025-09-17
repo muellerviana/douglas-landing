@@ -68,204 +68,326 @@
             </div>
         </section>
 
-        <section class="max-w-4xl mx-auto py-16 px-4">
-            <div class="bg-[#16243a]/80 rounded-lg shadow-lg flex flex-col md:flex-row items-stretch">
-                <!-- Encouragement Section -->
-                <div class="flex-1 flex flex-col justify-center p-8 border-b md:border-b-0 md:border-r border-[#22355a]">
-                    <h2 class="text-2xl md:text-3xl font-bold mb-4 text-gold text-center">Dê o Primeiro Passo!</h2>
-                    <p class="text-lg md:text-xl mb-6 text-white text-center">
-                        Preencha o formulário ao lado e garanta sua consultoria personalizada.<br>
-                        <span class="text-gold font-semibold">Vagas limitadas!</span> Não perca a chance de transformar seu futuro financeiro com orientação profissional e um plano sob medida para você.
-                    </p>
-                    <ul class="text-base md:text-lg text-gray-200 space-y-2 mx-auto max-w-xs">
-                        <li>✔️ Atendimento individual</li>
-                        <li>✔️ Estratégia exclusiva</li>
-                        <li>✔️ Suporte direto com especialista</li>
-                    </ul>
-                </div>
-                <!-- Cadastro Form Section -->
-                <div class="flex-1 flex flex-col justify-center p-8">
-                    <h2 class="text-2xl md:text-3xl font-bold mb-6 text-gold text-center">Cadastre-se para sua Consultoria</h2>
-                    <form class="space-y-6" autocomplete="off">
-                        <div>
-                            <label for="nome" class="block text-base md:text-lg font-semibold mb-2">Nome Completo</label>
-                            <input type="text" id="nome" name="nome" required class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white border border-gold/30 focus:outline-none focus:border-gold transition text-base md:text-lg" placeholder="Seu nome">
-                        </div>
-                        <div>
-                            <label for="email" class="block text-base md:text-lg font-semibold mb-2">E-mail</label>
-                            <input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white border border-gold/30 focus:outline-none focus:border-gold transition text-base md:text-lg" placeholder="seu@email.com">
-                        </div>
-                        <div>
-                            <label for="telefone" class="block text-base md:text-lg font-semibold mb-2">Telefone/WhatsApp</label>
-                            <input type="tel" id="telefone" name="telefone" required class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white border border-gold/30 focus:outline-none focus:border-gold transition text-base md:text-lg" placeholder="(99) 99999-9999">
-                        </div>
-                        <div>
-                            <label for="objetivo" class="block text-base md:text-lg font-semibold mb-2">Qual seu principal objetivo financeiro?</label>
-                            <textarea id="objetivo" name="objetivo" rows="3" class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white border border-gold/30 focus:outline-none focus:border-gold transition text-base md:text-lg" placeholder="Ex: Aposentadoria, comprar imóvel, independência financeira..."></textarea>
-                        </div>
-                        <button type="submit" class="w-full bg-gold hover:bg-goldLight text-darkblue font-bold py-3 rounded-full shadow-lg transition text-base md:text-lg">Enviar Cadastro</button>
-                    </form>
-                    <p class="mt-4 text-xs md:text-sm text-gray-400 text-center">Seus dados estão seguros. Não enviamos spam.</p>
-                </div>
-            </div>
-        </section>
+        <section class="max-w-5xl mx-auto py-20 px-6">
+  <div class="bg-gradient-to-br from-[#16243a]/90 to-[#0f1b2d]/90 rounded-2xl shadow-2xl flex flex-col md:flex-row items-stretch overflow-hidden">
+    
+    <!-- Encouragement Section -->
+    <div class="flex-1 flex flex-col justify-center p-10 bg-[#16243a]/70 backdrop-blur-md text-center md:text-left">
+      <h2 class="text-3xl md:text-4xl font-extrabold mb-6 text-gold">Dê o Primeiro Passo!</h2>
+      <p class="text-lg md:text-xl mb-8 text-gray-200 leading-relaxed">
+        Preencha o formulário ao lado e garanta sua <span class="text-gold font-semibold">consultoria personalizada</span>.<br>
+        <span class="block mt-2 text-gold font-bold">⚡ Vagas limitadas!</span>
+        Não perca a chance de transformar seu futuro financeiro com orientação profissional e um plano sob medida para você.
+      </p>
+      <ul class="text-base md:text-lg text-gray-300 space-y-3">
+        <li class="flex items-center gap-2">
+          <span class="text-gold">✔️</span> Atendimento individual
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="text-gold">✔️</span> Estratégia exclusiva
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="text-gold">✔️</span> Suporte direto com especialista
+        </li>
+      </ul>
+    </div>
 
+    <!-- Cadastro Form Section -->
+    <div class="flex-1 flex flex-col justify-center p-10 bg-[#0f1b2d]/80 backdrop-blur-md">
+      <h2 class="text-2xl md:text-3xl font-bold mb-8 text-gold text-center">
+        Cadastre-se para sua Consultoria
+      </h2>
       
-        <section id="testimonials" class="text-white py-16 px-4 text-center">
-            <h2 class="text-3xl font-bold mb-6 text-gold">O Que Nossos Clientes Dizem</h2>
-            <div class="max-w-3xl mx-auto grid gap-8 md:grid-cols-3">
-            <blockquote class="italic text-lg text-white border-l-4 border-gold pl-6">
-                <p>"Este produto mudou a minha vida!"</p>
-                <span class="block mt-2 font-semibold">Cliente Satisfeito</span>
-            </blockquote>
-            <blockquote class="italic text-lg text-white border-l-4 border-gold pl-6">
-                <p>"Com a consultoria, consegui organizar minhas finanças e investir melhor."</p>
-                <span class="block mt-2 font-semibold">Ana Paula</span>
-            </blockquote>
-            <blockquote class="italic text-lg text-white border-l-4 border-gold pl-6">
-                <p>"Recomendo para todos que querem segurança financeira e tranquilidade."</p>
-                <span class="block mt-2 font-semibold">Carlos Silva</span>
-            </blockquote>
-            </div>
-        </section>
+      <form class="space-y-6" autocomplete="off">
+        <!-- Nome -->
+        <div>
+          <label for="nome" class="block text-base font-semibold mb-2">Nome Completo</label>
+          <input type="text" id="nome" name="nome" required
+            class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white placeholder-gray-400 border border-gold/30 focus:ring-2 focus:ring-gold focus:border-transparent transition text-base" 
+            placeholder="Seu nome">
+        </div>
+        
+        <!-- Email -->
+        <div>
+          <label for="email" class="block text-base font-semibold mb-2">E-mail</label>
+          <input type="email" id="email" name="email" required
+            class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white placeholder-gray-400 border border-gold/30 focus:ring-2 focus:ring-gold focus:border-transparent transition text-base" 
+            placeholder="seu@email.com">
+        </div>
+        
+        <!-- Telefone -->
+        <div>
+          <label for="telefone" class="block text-base font-semibold mb-2">Telefone/WhatsApp</label>
+          <input type="tel" id="telefone" name="telefone" required
+            class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white placeholder-gray-400 border border-gold/30 focus:ring-2 focus:ring-gold focus:border-transparent transition text-base" 
+            placeholder="(99) 99999-9999">
+        </div>
+        
+        <!-- Objetivo -->
+        <div>
+          <label for="objetivo" class="block text-base font-semibold mb-2">Qual seu principal objetivo financeiro?</label>
+          <textarea id="objetivo" name="objetivo" rows="3"
+            class="w-full px-4 py-3 rounded-lg bg-[#1e3352] text-white placeholder-gray-400 border border-gold/30 focus:ring-2 focus:ring-gold focus:border-transparent transition text-base" 
+            placeholder="Ex: Aposentadoria, comprar imóvel, independência financeira..."></textarea>
+        </div>
+        
+        <!-- CTA Button -->
+        <button type="submit"
+          class="w-full bg-gradient-to-r from-gold to-yellow-400 text-darkblue font-bold py-3 rounded-full shadow-lg hover:scale-[1.02] hover:shadow-xl transition-transform duration-200 text-lg">
+          Enviar Cadastro
+        </button>
+      </form>
 
-            <section id="problema" class="bg-white py-16 px-4 flex justify-center items-center">
-                <div class="max-w-3xl w-full">
-                    <div class="bg-gradient-to-br from-white via-white to-gray-100 mb-10 rounded-3xl border border-blue-900/30 p-10 md:p-14 flex flex-col items-center">
-                        <div class="flex flex-col md:flex-row items-center gap-8 w-full">
-                
-                            <!-- Right: Texts -->
-                            <div class="flex-1">
-                                <h2 class="text-3xl font-bold mb-6 text-darkblue">O Problema</h2>
-                                <p class="text-lg text-darkblue mb-4">
-                                   <span class="font-bold">A obsessão por enriquecer rápido leva muitos a frustrações e perdas financeiras.</span>
-                                   No Brasil, a maioria dos investidores não segue uma estratégia consistente e, por isso, 70% das
-                                   fortunas se dissipam em poucos anos por falta de gestão adequada.
-                                </p>
-                            </div>
-                             <!-- Left: Image -->
-                            <div class="flex-1 flex justify-center items-center mb-8 md:mb-0">
-                                <img src="./assets/losing money.png" alt="Problema financeiro" class="w-full max-w-xs object-cover">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-gradient-to-br from-white via-white to-gray-100 rounded-3xl border border-blue-900/30 p-10 md:p-14 flex flex-col items-center">
-                        <div class="flex flex-col md:flex-row items-center gap-8 w-full">
-                            <!-- Left: Image -->
-                            <div class="flex-1 flex justify-center items-center mb-8 md:mb-0">
-                                <img src="./assets/happy_chart.png" alt="Solução financeira" class="w-full max-w-xs object-cover">
-                            </div>
-                            <!-- Right: Texts -->
-                            <div class="flex-1">
-                                <h2 class="text-3xl font-bold mb-6 text-darkblue">A Solução</h2>
-                                <p class="text-lg text-darkblue mb-4">
-                                   Com um plano de investimentos personalizado, você recebe um roteiro financeiro
-                                    estratégico que inclui planejamento de aposentadoria e suporte individual com um especialista, 
-                                    garantindo clareza e segurança em cada decisão.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-full flex justify-center mt-10">
-                        <a href="#cta" class="inline-block bg-gold hover:bg-goldLight text-darkblue font-semibold px-8 py-3 rounded-full shadow transition text-base md:text-lg">
-                            Quero meu Plano Personalizado
-                        </a>
-                    </div>
-                </div>
-            </section>
+      <p class="mt-6 text-xs md:text-sm text-gray-400 text-center flex items-center justify-center gap-1">
+        🔒 Seus dados estão seguros. Não enviamos spam.
+      </p>
+    </div>
+  </div>
+</section>
 
+      <section id="testimonials" class="bg-darkblue text-white py-20 px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <!-- Section Title -->
+    <h2 class="text-3xl md:text-4xl font-bold text-gold mb-12">
+      O Que Nossos Clientes Dizem
+    </h2>
 
-        <section id="compromisso" class="bg-gray-50 text-darkblue py-16 px-4">
-            <div class="max-w-3xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-6 text-gold">Nosso compromisso com você</h2>
-            <div class="mb-8 text-lg">
-                <p class="mb-4 p-20 text-2xl">
-                Serao 3 ou 5 reuniões onde faremos o passo a passo para identificar seus objetivos, montar sua estratégia e instruir a você como seguir.
-                </p>
-                <ul class="space-y-3 text-left max-w-xl mx-auto">
-                <li>
-                    <span class="font-semibold text-gold">1° Reunião</span> - Te conhecendo e me apresentando. Essencial para verificar suas necessidades.
-                </li>
-                <li>
-                    <span class="font-semibold text-gold">2° Reunião</span> - Apresentando a estratégia e como se guiar por ela. Entregaremos um PDF com sua estratégia e detalhes sobre os investimentos na carteira.
-                </li>
-                <li>
-                    <span class="font-semibold text-gold">3° Reunião</span> - Instruções extras, revisão e eventuais mudanças de acordo com suas demandas.
-                </li>
-                <li>
-                    <span class="font-semibold text-gold">+2 Reuniões extras no plano mentor</span> - Se você não sabe abrir conta em corretora ou comprar os ativos, estas reuniões servirão para fazer o passo a passo junto contigo e te ensinar a seguir por conta própria.
-                </li>
-                </ul>
-            </div>
-            </div>
-        </section>
+    <!-- Testimonials Grid -->
+    <div class="grid gap-10 md:grid-cols-3">
+      
+      <!-- Testimonial Card -->
+      <div class="bg-[#1e3352] rounded-xl p-6 shadow-lg hover:shadow-xl transition">
+        <p class="italic text-lg leading-relaxed">“Este produto mudou a minha vida!”</p>
+        <div class="mt-4 flex items-center justify-center gap-3">
+          <img src="https://i.pravatar.cc/100?img=12" alt="Cliente Satisfeito" class="w-10 h-10 rounded-full border-2 border-gold">
+          <span class="font-semibold">Cliente Satisfeito</span>
+        </div>
+      </div>
 
-          <section id="autoridade" class="text-white py-16 px-4">
-            <div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-gold">Autoridade e Confiança</h2>
-                <ul class="mb-8 space-y-2 text-lg">
-                    <li>👨‍💼 8 anos em investimentos</li>
-                    <li>📊 7 anos em contabilidade</li>
-                    <li>🎓 Formação em Ciências Contábeis e Comércio Exterior</li>
-                    <li>✅ Certificação como Especialista em Investimentos</li>
-                </ul>
-                <div class="mt-8">
-                    <h3 class="text-2xl font-semibold mb-4 text-gold">Resultados reais:</h3>
-                    <div class="flex flex-col md:flex-row justify-center gap-8">
-                        <div class="bg-[#16243a] rounded-lg shadow-lg p-6 flex-1">
-                            <span class="block text-lg font-semibold text-gold mb-2">Cliente 1</span>
-                            <p class="text-xl font-bold mb-1">211,79% em 3 anos</p>
-                            <p class="text-gold">4,5x o CDI</p>
-                        </div>
-                        <div class="bg-[#16243a] rounded-lg shadow-lg p-6 flex-1">
-                            <span class="block text-lg font-semibold text-gold mb-2">Cliente 2</span>
-                            <p class="text-xl font-bold mb-1">19,88% em 1 ano</p>
-                            <p class="text-gold">173,77% do CDI</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <!-- Testimonial Card -->
+      <div class="bg-[#1e3352] rounded-xl p-6 shadow-lg hover:shadow-xl transition">
+        <p class="italic text-lg leading-relaxed">“Com a consultoria, consegui organizar minhas finanças e investir melhor.”</p>
+        <div class="mt-4 flex items-center justify-center gap-3">
+          <img src="https://i.pravatar.cc/100?img=32" alt="Ana Paula" class="w-10 h-10 rounded-full border-2 border-gold">
+          <span class="font-semibold">Ana Paula</span>
+        </div>
+      </div>
+
+      <!-- Testimonial Card -->
+      <div class="bg-[#1e3352] rounded-xl p-6 shadow-lg hover:shadow-xl transition">
+        <p class="italic text-lg leading-relaxed">“Recomendo para todos que querem segurança financeira e tranquilidade.”</p>
+        <div class="mt-4 flex items-center justify-center gap-3">
+          <img src="https://i.pravatar.cc/100?img=45" alt="Carlos Silva" class="w-10 h-10 rounded-full border-2 border-gold">
+          <span class="font-semibold">Carlos Silva</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
-        <section id="oportunidade" class="bg-gray-50 text-darkblue py-16 px-4">
-            <div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-3xl font-bold mb-6 text-gold">Oportunidade Única</h2>
-                <p class="text-lg mb-8">
-                    Com juros compostos e aportes mensais, seu dinheiro vira uma bola de neve.
-                </p>
-                <div class="flex flex-col md:flex-row justify-center gap-8 mb-8 mt-8"></div>
-                    <!-- Card 1 -->
-                    <div class="relative bg-[#16243a] rounded-xl shadow-xl p-8 flex-1 border-2 border-gold/40 hover:scale-105 transition group">
-                        <div class="absolute -top-6 left-1/2 -translate-x-1/2 mb-6 bg-gold text-darkblue px-4 py-1 rounded-full text-sm font-bold shadow group-hover:bg-goldDark transition">
-                            Exemplo Real
-                        </div>
-                        <span class="block text-xl font-bold text-gold mb-2">R$10.000 <span class="text-white">→</span> R$137.400</span>
-                        <p class="text-lg mb-2">em 20 anos <span class="text-gold">(14% a.a.)</span></p>
-                        <div class="mt-4 text-gray-300 text-sm">Investimento inicial, sem aportes mensais</div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="relative bg-[#16243a] rounded-xl shadow-xl p-8 mt-20 flex-1 border-2 border-gold/40 hover:scale-105 transition group">
-                        <div class="absolute -top-6 left-1/2 -translate-x-1/2 mb-6 bg-gold text-darkblue px-4 py-1 rounded-full text-sm font-bold shadow group-hover:bg-goldDark transition">
-                            Com Aportes
-                        </div>
-                        <span class="block text-xl font-bold text-gold mb-2">+ de R$1.000.000</span>
-                        <p class="text-lg mb-2">em 20 anos</p>
-                        <div class="mt-2 text-gray-300 text-sm">Aportes mensais de <span class="text-gold">R$700</span></div>
-                    </div>
-                </div>
-                <div class="mt-8 text-center">
-                    <p class="text-lg">
-                        Quanto antes você começar, maior o resultado.
-                    </p>
-                </div>
-            </div>
-        </section>
+
+            <section id="problema" class="bg-white py-20 px-6 flex justify-center items-center">
+  <div class="max-w-6xl w-full space-y-12">
+    
+    <!-- Problema -->
+    <div class="bg-gradient-to-br from-white via-gray-50 to-gray-100 rounded-2xl border border-red-500/20 p-10 md:p-14 flex flex-col md:flex-row items-center gap-10 shadow-lg">
+      <!-- Text -->
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold mb-6 text-red-600">O Problema</h2>
+        <p class="text-lg text-gray-800 mb-4">
+          <span class="font-bold">A obsessão por enriquecer rápido leva muitos a frustrações e perdas financeiras.</span><br><br>
+          No Brasil, a maioria dos investidores não segue uma estratégia consistente e, por isso, 
+          <span class="text-red-500 font-semibold">70% das fortunas se dissipam em poucos anos</span> por falta de gestão adequada.
+        </p>
+      </div>
+      <!-- Image -->
+      <div class="flex-1 flex justify-center">
+        <img src="./assets/losing money.png" alt="Problema financeiro" class="w-full max-w-xs object-cover drop-shadow-lg">
+      </div>
+    </div>
+
+    <!-- Solução -->
+    <div class="bg-gradient-to-br from-white via-gray-50 to-gray-100 rounded-2xl border border-teal-500/20 p-10 md:p-14 flex flex-col md:flex-row items-center gap-10 shadow-lg">
+      <!-- Image -->
+      <div class="flex-1 flex justify-center order-1 md:order-none">
+        <img src="./assets/happy_chart.png" alt="Solução financeira" class="w-full max-w-xs object-cover drop-shadow-lg">
+      </div>
+      <!-- Text -->
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold mb-6 text-teal-500">A Solução</h2>
+        <p class="text-lg text-gray-800 mb-4">
+          Com um <span class="font-semibold text-teal-600">plano de investimentos personalizado</span>, você recebe um roteiro financeiro estratégico que inclui:
+        </p>
+        <ul class="list-disc list-inside text-gray-700 text-lg space-y-2">
+          <li>Planejamento de aposentadoria</li>
+          <li>Estratégia sob medida</li>
+          <li>Suporte individual com um especialista</li>
+        </ul>
+        <p class="mt-4 text-lg text-gray-800">
+          Assim, você terá <span class="font-semibold text-teal-600">clareza e segurança</span> em cada decisão.
+        </p>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="w-full flex justify-center">
+      <a href="#cta" 
+        class="inline-block bg-gradient-to-r from-teal-500 via-teal-400 to-teal-600 hover:from-teal-400 hover:to-teal-500 text-white font-semibold px-10 py-4 rounded-full shadow-lg transition transform hover:scale-105 text-base md:text-lg">
+        Quero meu Plano Personalizado
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section id="compromisso" class="bg-gradient-to-b from-white to-gray-50 py-20 px-6">
+  <div class="max-w-5xl mx-auto">
+    <!-- Card -->
+    <div class="bg-white rounded-2xl shadow-lg p-10 md:p-16">
+      <div class="text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6 text-darkblue">
+          Nosso compromisso com você
+        </h2>
+        <p class="mb-12 text-lg md:text-xl text-gray-700 leading-relaxed">
+          Serão 3 ou 5 reuniões onde vamos identificar seus objetivos, montar sua estratégia e instruir você em como seguir com segurança.
+        </p>
+      </div>
+
+      <!-- Timeline -->
+      <div class="relative max-w-2xl mx-auto">
+        <div class="border-l-4 border-teal-500">
+          
+          <!-- Reunião 1 -->
+          <div class="mb-10 ml-6">
+            <span class="absolute -left-3 flex items-center justify-center w-6 h-6 bg-teal-500 rounded-full text-white text-sm font-bold">1</span>
+            <h3 class="text-xl font-semibold text-darkblue">1ª Reunião</h3>
+            <p class="text-gray-600 mt-2">
+              Te conhecendo e me apresentando. Essencial para verificar suas necessidades.
+            </p>
+          </div>
+
+          <!-- Reunião 2 -->
+          <div class="mb-10 ml-6">
+            <span class="absolute -left-3 flex items-center justify-center w-6 h-6 bg-teal-500 rounded-full text-white text-sm font-bold">2</span>
+            <h3 class="text-xl font-semibold text-darkblue">2ª Reunião</h3>
+            <p class="text-gray-600 mt-2">
+              Apresentando a estratégia e como se guiar por ela. Entregaremos um PDF com sua estratégia e detalhes sobre os investimentos.
+            </p>
+          </div>
+
+          <!-- Reunião 3 -->
+          <div class="mb-10 ml-6">
+            <span class="absolute -left-3 flex items-center justify-center w-6 h-6 bg-teal-500 rounded-full text-white text-sm font-bold">3</span>
+            <h3 class="text-xl font-semibold text-darkblue">3ª Reunião</h3>
+            <p class="text-gray-600 mt-2">
+              Instruções extras, revisão e eventuais mudanças de acordo com suas demandas.
+            </p>
+          </div>
+
+          <!-- Extras -->
+          <div class="ml-6">
+            <span class="absolute -left-3 flex items-center justify-center w-6 h-6 bg-teal-400 rounded-full text-white text-sm font-bold">+</span>
+            <h3 class="text-xl font-semibold text-darkblue">+2 Reuniões extras (Plano Mentor)</h3>
+            <p class="text-gray-600 mt-2">
+              Se você não sabe abrir conta em corretora ou comprar ativos, estas reuniões servirão para fazer o passo a passo junto contigo e te ensinar a seguir por conta própria.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+   <section id="autoridade" class="bg-gradient-to-b from-[#0d1828] to-[#101f33] text-white py-20 px-6 min-h-[100vh] flex items-center justify-center">
+  <div class="max-w-5xl mx-auto text-center">
+    
+    <!-- Title -->
+    <h2 class="text-3xl md:text-4xl font-bold mb-12 text-teal-400">
+      Autoridade e Confiança
+    </h2>
+
+    <!-- Credentials grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-20">
+      <div class="bg-[#16243a] rounded-xl shadow-md p-6 flex items-center gap-4">
+        <span class="text-3xl">👨‍💼</span>
+        <p class="text-lg font-medium">8 anos em investimentos</p>
+      </div>
+      <div class="bg-[#16243a] rounded-xl shadow-md p-6 flex items-center gap-4">
+        <span class="text-3xl">📊</span>
+        <p class="text-lg font-medium">7 anos em contabilidade</p>
+      </div>
+      <div class="bg-[#16243a] rounded-xl shadow-md p-6 flex items-center gap-4">
+        <span class="text-3xl">🎓</span>
+        <p class="text-lg font-medium">Ciências Contábeis e Comércio Exterior</p>
+      </div>
+      <div class="bg-[#16243a] rounded-xl shadow-md p-6 flex items-center gap-4">
+        <span class="text-3xl">✅</span>
+        <p class="text-lg font-medium">Certificação como Especialista em Investimentos</p>
+      </div>
+    </div>
+
+    <!-- Results -->
+    <div class="mt-12">
+      <h3 class="text-2xl font-semibold mb-8 text-teal-400">Resultados reais</h3>
+      <div class="flex flex-col md:flex-row justify-center gap-8">
+        
+        <!-- Client 1 -->
+        <div class="bg-[#16243a] rounded-xl shadow-lg p-8 flex-1">
+          <span class="block text-lg font-medium text-teal-300 mb-2">Cliente 1</span>
+          <p class="text-3xl font-extrabold mb-2">211,79% <span class="text-xl font-semibold">em 3 anos</span></p>
+          <p class="text-teal-300 font-medium">4,5x o CDI</p>
+        </div>
+        
+        <!-- Client 2 -->
+        <div class="bg-[#16243a] rounded-xl shadow-lg p-8 flex-1">
+          <span class="block text-lg font-medium text-teal-300 mb-2">Cliente 2</span>
+          <p class="text-3xl font-extrabold mb-2">19,88% <span class="text-xl font-semibold">em 1 ano</span></p>
+          <p class="text-teal-300 font-medium">173,77% do CDI</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+       <section id="oportunidade" class="bg-gray-50 text-darkblue py-20 px-6 min-h-[100vh] flex items-center">
+  <div class="max-w-5xl mx-auto text-center">
+
+    <!-- Title -->
+    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-teal-500">
+      Oportunidade Única
+    </h2>
+    <p class="text-lg mb-12 text-gray-700">
+      Com juros compostos e aportes mensais, seu dinheiro pode se transformar em algo muito maior.
+    </p>
+
+    <!-- Cards -->
+    <div class="flex flex-col md:flex-row justify-center gap-10">
+      
+      <!-- Card 1 -->
+      <div class="relative bg-[#16243a] rounded-2xl shadow-xl p-10 flex-1 border border-teal-400/40 hover:scale-105 transition-transform">
+        <div class="absolute -top-5 left-1/2 -translate-x-1/2 bg-teal-500 text-white px-4 py-1 rounded-full text-sm font-semibold shadow">
+          Exemplo Real
+        </div>
+        <span class="block text-2xl font-bold text-teal-400 mb-3">R$10.000 <span class="text-white">→</span> R$137.400</span>
+        <p class="text-lg text-gray-200 mb-2">em 20 anos <span class="text-teal-400">(14% a.a.)</span></p>
+        <p class="mt-4 text-gray-400 text-sm">Investimento inicial, sem aportes mensais</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="relative bg-[#16]()
+
 
         <section id="cta-final" class="bg-gradient-to-r from-goldDark via-gold to-goldLight text-darkblue py-16 px-4 text-center">
             <div class="max-w-2xl mx-auto">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6 flex items-center justify-center gap-2">
-                    <span class="text-4xl">🚀</span> Invista em você mesmo.
+                  Invista em você mesmo.
                 </h2>
                 <p class="text-lg md:text-xl mb-8">
                     Transforme seu dinheiro em patrimônio duradouro com estratégia, disciplina e orientação profissional.
@@ -278,19 +400,31 @@
         
 
         
-        <section id="cta" class="bg-gray-50 text-darkblue py-20 px-6">
+        <section id="cta" class="bg-gradient-to-r from-[#0d1828] to-[#16243a] text-white py-20 px-6">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
-            <div class="flex-1 flex flex-col justify-center text-center md:text-left"</div>
-            <h2 class="text-4xl font-extrabold mb-4 leading-tight">Pronto para transformar seu futuro financeiro?</h2>
-            <p class="mb-6 text-lg md:text-xl text-gray-200">
-              </p>  Eu estarei ao seu lado em cada passo. Chega de promessas vazias — aqui você terá estratégia, clareza e um plano sob medida para construir riqueza real.
+            
+            <!-- Left side: text -->
+            <div class="flex-1 text-center md:text-left">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
+                Pronto para transformar seu futuro financeiro?
+            </h2>
+            <p class="mb-8 text-lg md:text-xl text-gray-300">
+                Eu estarei ao seu lado em cada passo.  
+                Chega de promessas vazias — aqui você terá <span class="text-teal-400 font-semibold">estratégia, clareza e um plano sob medida</span> para construir riqueza real.
             </p>
             <a href="#signup" 
-                class="inline-block bg-gradient-to-r from-gold via-goldLight to-goldDark text-darkblue font-bold px-10 py-4 rounded-full shadow-lg transform transition hover:scale-105 hover:from-goldLight hover:to-gold">
+                class="inline-block bg-gradient-to-r from-teal-500 via-teal-400 to-teal-600 text-white font-bold px-10 py-4 rounded-full shadow-lg transform transition hover:scale-105 hover:from-teal-400 hover:to-teal-500">
                 Quero Começar Agora
             </a>
             <p class="mt-4 text-sm text-gray-400">Vagas limitadas. Garanta a sua hoje mesmo.</p>
             </div>
+
+            <!-- Right side: optional image or illustration -->
+            <div class="flex-1 hidden md:flex justify-center">
+            <!-- You could place an illustration, mockup, or icon here -->
+            <img src="https://cdn-icons-png.flaticon.com/512/2910/2910768.png" alt="Investimentos" class="w-64 h-64 opacity-90">
+            </div>
+
         </div>
         </section>
 
